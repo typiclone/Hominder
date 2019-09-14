@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1829400C232743BC00583AF8 /* homeworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829400B232743BC00583AF8 /* homeworkCell.swift */; };
+		1839ABC5231F4A8600DC02E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ABC4231F4A8600DC02E9 /* ViewController.swift */; };
+		188EFB8F231C56D200EEC9A9 /* newHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EFB8E231C56D200EEC9A9 /* newHomework.swift */; };
+		18E17BF1231A048B00753012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E17BF0231A048B00753012 /* AppDelegate.swift */; };
+		18E17BF6231A048B00753012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E17BF4231A048B00753012 /* Main.storyboard */; };
+		18E17BF9231A048B00753012 /* Hominder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E17BF7231A048B00753012 /* Hominder.xcdatamodeld */; };
+		18E17BFB231A049B00753012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E17BFA231A049B00753012 /* Assets.xcassets */; };
+		18E17BFE231A049B00753012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E17BFC231A049B00753012 /* LaunchScreen.storyboard */; };
+		DF9FCB26E15F3C5034CD74C1 /* Pods_Hominder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238F3B0839B324ED574102E8 /* Pods_Hominder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1829400B232743BC00583AF8 /* homeworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeworkCell.swift; sourceTree = "<group>"; };
+		1839ABC4231F4A8600DC02E9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
+		188EFB8E231C56D200EEC9A9 /* newHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newHomework.swift; sourceTree = "<group>"; };
+		18E17BED231A048B00753012 /* Hominder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hominder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E17BF0231A048B00753012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E17BF5231A048B00753012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E17BF8231A048B00753012 /* Hominder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hominder.xcdatamodel; sourceTree = "<group>"; };
+		18E17BFA231A049B00753012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E17BFD231A049B00753012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E17BFF231A049B00753012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238F3B0839B324ED574102E8 /* Pods_Hominder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hominder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431AAE6A5AC79E3D9DF8423C /* Pods-Hominder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hominder.debug.xcconfig"; path = "Target Support Files/Pods-Hominder/Pods-Hominder.debug.xcconfig"; sourceTree = "<group>"; };
+		9E38341C59C0670AA0939A1F /* Pods-Hominder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hominder.release.xcconfig"; path = "Target Support Files/Pods-Hominder/Pods-Hominder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E17BEA231A048B00753012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9FCB26E15F3C5034CD74C1 /* Pods_Hominder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1839ABCA231F4DD400DC02E9 /* Persistent Storage */ = {
+			isa = PBXGroup;
+			children = (
+				18E17BF7231A048B00753012 /* Hominder.xcdatamodeld */,
+			);
+			path = "Persistent Storage";
+			sourceTree = "<group>";
+		};
+		188EFB8B231C564100EEC9A9 /* dataModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dataModels;
+			sourceTree = "<group>";
+		};
+		188EFB8C231C565A00EEC9A9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18E17BF0231A048B00753012 /* AppDelegate.swift */,
+				1839ABC4231F4A8600DC02E9 /* ViewController.swift */,
+				188EFB8E231C56D200EEC9A9 /* newHomework.swift */,
+				1829400B232743BC00583AF8 /* homeworkCell.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		188EFB8D231C568100EEC9A9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				18E17BF4231A048B00753012 /* Main.storyboard */,
+				18E17BFC231A049B00753012 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		18E17BE4231A048B00753012 = {
+			isa = PBXGroup;
+			children = (
+				18E17BEF231A048B00753012 /* Hominder */,
+				18E17BEE231A048B00753012 /* Products */,
+				7D0CF4D83378F327B4779D4F /* Pods */,
+				D571838AA5C065A0635F3FBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18E17BEE231A048B00753012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E17BED231A048B00753012 /* Hominder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E17BEF231A048B00753012 /* Hominder */ = {
+			isa = PBXGroup;
+			children = (
+				18E17BFF231A049B00753012 /* Info.plist */,
+				188EFB8C231C565A00EEC9A9 /* View Controllers */,
+				188EFB8D231C568100EEC9A9 /* Storyboards */,
+				188EFB8B231C564100EEC9A9 /* dataModels */,
+				18E17BFA231A049B00753012 /* Assets.xcassets */,
+				1839ABCA231F4DD400DC02E9 /* Persistent Storage */,
+			);
+			path = Hominder;
+			sourceTree = "<group>";
+		};
+		7D0CF4D83378F327B4779D4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				431AAE6A5AC79E3D9DF8423C /* Pods-Hominder.debug.xcconfig */,
+				9E38341C59C0670AA0939A1F /* Pods-Hominder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D571838AA5C065A0635F3FBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				238F3B0839B324ED574102E8 /* Pods_Hominder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E17BEC231A048B00753012 /* Hominder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E17C02231A049C00753012 /* Build configuration list for PBXNativeTarget "Hominder" */;
+			buildPhases = (
+				E1BE0C3BF6838B7746220CF6 /* [CP] Check Pods Manifest.lock */,
+				18E17BE9231A048B00753012 /* Sources */,
+				18E17BEA231A048B00753012 /* Frameworks */,
+				18E17BEB231A048B00753012 /* Resources */,
+				D7CB3FD68EBC76097C87A928 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hominder;
+			productName = Hominder;
+			productReference = 18E17BED231A048B00753012 /* Hominder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E17BE5231A048B00753012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Vasisht Muduganti";
+				TargetAttributes = {
+					18E17BEC231A048B00753012 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 18E17BE8231A048B00753012 /* Build configuration list for PBXProject "Hominder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E17BE4231A048B00753012;
+			productRefGroup = 18E17BEE231A048B00753012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E17BEC231A048B00753012 /* Hominder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E17BEB231A048B00753012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E17BFE231A049B00753012 /* LaunchScreen.storyboard in Resources */,
+				18E17BFB231A049B00753012 /* Assets.xcassets in Resources */,
+				18E17BF6231A048B00753012 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D7CB3FD68EBC76097C87A928 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hominder/Pods-Hominder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hominder/Pods-Hominder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1BE0C3BF6838B7746220CF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hominder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E17BE9231A048B00753012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839ABC5231F4A8600DC02E9 /* ViewController.swift in Sources */,
+				1829400C232743BC00583AF8 /* homeworkCell.swift in Sources */,
+				18E17BF9231A048B00753012 /* Hominder.xcdatamodeld in Sources */,
+				188EFB8F231C56D200EEC9A9 /* newHomework.swift in Sources */,
+				18E17BF1231A048B00753012 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E17BF4231A048B00753012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E17BF5231A048B00753012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E17BFC231A049B00753012 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E17BFD231A049B00753012 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E17C00231A049B00753012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E17C01231A049B00753012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E17C03231A049C00753012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431AAE6A5AC79E3D9DF8423C /* Pods-Hominder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SX7WGHX7PV;
+				INFOPLIST_FILE = Hominder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vasishtm.Hominder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E17C04231A049C00753012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E38341C59C0670AA0939A1F /* Pods-Hominder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SX7WGHX7PV;
+				INFOPLIST_FILE = Hominder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vasishtm.Hominder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E17BE8231A048B00753012 /* Build configuration list for PBXProject "Hominder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E17C00231A049B00753012 /* Debug */,
+				18E17C01231A049B00753012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E17C02231A049C00753012 /* Build configuration list for PBXNativeTarget "Hominder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E17C03231A049C00753012 /* Debug */,
+				18E17C04231A049C00753012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18E17BF7231A048B00753012 /* Hominder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18E17BF8231A048B00753012 /* Hominder.xcdatamodel */,
+			);
+			currentVersion = 18E17BF8231A048B00753012 /* Hominder.xcdatamodel */;
+			path = Hominder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18E17BE5231A048B00753012 /* Project object */;
+}

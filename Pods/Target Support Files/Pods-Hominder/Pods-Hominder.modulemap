@@ -1,0 +1,6 @@
+framework module Pods_Hominder {
+  umbrella header "Pods-Hominder-umbrella.h"
+
+  export *
+  module * { export * }
+}

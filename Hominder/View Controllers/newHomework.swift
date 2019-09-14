@@ -51,6 +51,9 @@ class newHomework: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
             firstTab.tableView.reloadData()
             
             self.tabBarController?.selectedIndex = 0
+            
+            
+            print("yeeeeeetttteteetette")
         }
         
     }

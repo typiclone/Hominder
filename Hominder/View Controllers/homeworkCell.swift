@@ -17,6 +17,7 @@ class homeworkCell: SwipeTableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        print("heya")
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

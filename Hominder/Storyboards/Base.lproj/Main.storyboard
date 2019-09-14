@@ -148,7 +148,7 @@
         <!--ViewController-->
         <scene sceneID="0gP-ty-17Y">
             <objects>
-                <viewController storyboardIdentifier="ViewController" title="ViewController" id="vTs-fa-dU2" customClass="ViewController" customModule="Hominder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homeworkPage" title="ViewController" id="vTs-fa-dU2" customClass="ViewController" customModule="Hominder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Jd-gc-og6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

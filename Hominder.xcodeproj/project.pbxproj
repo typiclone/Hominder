@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181DF55B232D73BE00B72C3D /* homeworkPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DF55A232D73BE00B72C3D /* homeworkPage.swift */; };
 		1829400C232743BC00583AF8 /* homeworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829400B232743BC00583AF8 /* homeworkCell.swift */; };
-		1839ABC5231F4A8600DC02E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ABC4231F4A8600DC02E9 /* ViewController.swift */; };
 		188EFB8F231C56D200EEC9A9 /* newHomework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EFB8E231C56D200EEC9A9 /* newHomework.swift */; };
 		18E17BF1231A048B00753012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E17BF0231A048B00753012 /* AppDelegate.swift */; };
 		18E17BF6231A048B00753012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E17BF4231A048B00753012 /* Main.storyboard */; };
@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181DF55A232D73BE00B72C3D /* homeworkPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeworkPage.swift; sourceTree = "<group>"; };
 		1829400B232743BC00583AF8 /* homeworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeworkCell.swift; sourceTree = "<group>"; };
-		1839ABC4231F4A8600DC02E9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
 		188EFB8E231C56D200EEC9A9 /* newHomework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newHomework.swift; sourceTree = "<group>"; };
 		18E17BED231A048B00753012 /* Hominder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hominder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E17BF0231A048B00753012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,9 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				18E17BF0231A048B00753012 /* AppDelegate.swift */,
-				1839ABC4231F4A8600DC02E9 /* ViewController.swift */,
 				188EFB8E231C56D200EEC9A9 /* newHomework.swift */,
 				1829400B232743BC00583AF8 /* homeworkCell.swift */,
+				181DF55A232D73BE00B72C3D /* homeworkPage.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -249,8 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1839ABC5231F4A8600DC02E9 /* ViewController.swift in Sources */,
 				1829400C232743BC00583AF8 /* homeworkCell.swift in Sources */,
+				181DF55B232D73BE00B72C3D /* homeworkPage.swift in Sources */,
 				18E17BF9231A048B00753012 /* Hominder.xcdatamodeld in Sources */,
 				188EFB8F231C56D200EEC9A9 /* newHomework.swift in Sources */,
 				18E17BF1231A048B00753012 /* AppDelegate.swift in Sources */,
